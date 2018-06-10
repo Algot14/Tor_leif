@@ -16,6 +16,7 @@ virtualenv -p python3 venv3
 source venv3/bin/activate
 pip install pypot
 pip install poppy-humanoid
+pip install matplotlib				# can't use virtualenv when plotting graphs (use conda instead)
 ```
 
 Test that it is installed correctly:
